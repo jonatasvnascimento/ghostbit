@@ -1,8 +1,8 @@
 import React from 'react'
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
 
-import Main from './page/Main/Main'
-import Contato from './page/Contato/Contato'
+import Main from '../src/page/Main/Main'
+import Contato from '../src/page/Contato/Contato'
 
 export default function Routes(){
     return(
@@ -10,7 +10,7 @@ export default function Routes(){
             <Switch>
                 <Route path="/" exact component={Main}/>
                 <Route path="/contato" component={Contato}/>
-
+                <Redirect from="*" to="/"/> 
             </Switch>
         </BrowserRouter>
     )
