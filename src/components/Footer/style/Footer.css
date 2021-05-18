@@ -1,0 +1,12 @@
+.colorFooterCOP{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.a_class_not_decoration{
+    text-decoration:none;
+}
+.footerdown{
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+
