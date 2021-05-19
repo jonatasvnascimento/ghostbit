@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
 import {
   Collapse,
   Navbar,
@@ -37,7 +38,7 @@ const Header = (props) => {
               <NavLink href="/Portifolio">Portifólio</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href="/contato">Contato</NavLink>
+              <Link to="/contato" >Contato</Link>
             </NavItem>
             {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
