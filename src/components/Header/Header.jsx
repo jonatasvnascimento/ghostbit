@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 import {
   Collapse,
   Navbar,
@@ -24,23 +24,25 @@ const Header = (props) => {
     <div>
       <Navbar color="dark" dark expand="md">
         <div className="container">
-        <NavbarBrand href="/">GhostBit</NavbarBrand>
-        <NavbarToggler onClick={toggle} />
-        <Collapse isOpen={isOpen} navbar>
-          <Nav className="mr-auto" navbar>
-            <NavItem>
-              <NavLink className="active" href="/">Notícias</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/projeto">Projetos</NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href="/Portifolio">Portifólio</NavLink>
-            </NavItem>
-            <NavItem>
-              <Link to="/contato" >Contato</Link>
-            </NavItem>
-            {/* <UncontrolledDropdown nav inNavbar>
+          <NavbarBrand href="/">GhostBit</NavbarBrand>
+          <NavbarToggler onClick={toggle} />
+          <Collapse isOpen={isOpen} navbar>
+            <Nav className="mr-auto" navbar>
+              <NavItem>
+                <NavLink className="active" href="/">
+                  Notícias
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/projeto">Projetos</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="/Portifolio">Portifólio</NavLink>
+              </NavItem>
+              <NavItem>
+                <Link to="/contato">Contato</Link>
+              </NavItem>
+              {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options
               </DropdownToggle>
@@ -57,14 +59,13 @@ const Header = (props) => {
                 </DropdownItem>
               </DropdownMenu>
             </UncontrolledDropdown> */}
-          </Nav>
-          {/* <NavbarText>Simple Text</NavbarText> */}
-        </Collapse>
+            </Nav>
+            {/* <NavbarText>Simple Text</NavbarText> */}
+          </Collapse>
         </div>
       </Navbar>
-      
     </div>
   );
-}
+};
 
 export default Header;
