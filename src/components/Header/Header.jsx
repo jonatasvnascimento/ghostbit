@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './style/Header.css';
 import {
   Collapse,
   Navbar,
@@ -22,25 +23,33 @@ const Header = (props) => {
 
   return (
     <div>
-      <Navbar color="dark" dark expand="md">
+      <Navbar expand="md" className="fixed-top NavbarDark ">
         <div className="container">
-          <NavbarBrand href="/">GhostBit</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
+            <Link to="/contato" className="LogoGhostBit">
+              GhostBit
+            </Link>
             <Nav className="mr-auto" navbar>
               <NavItem>
-                <NavLink className="active" href="/">
+                <Link to="/contato" className="styleLinks ">
                   Notícias
-                </NavLink>
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/projeto">Projetos</NavLink>
+                <Link to="/contato" className="styleLinks">
+                  Projetos
+                </Link>
               </NavItem>
               <NavItem>
-                <NavLink href="/Portifolio">Portifólio</NavLink>
+                <Link to="/contato" className="styleLinks">
+                  Portifólio
+                </Link>
               </NavItem>
               <NavItem>
-                <Link to="/contato">Contato</Link>
+                <Link to="/contato" className="styleLinks">
+                  Contato
+                </Link>
               </NavItem>
               {/* <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
