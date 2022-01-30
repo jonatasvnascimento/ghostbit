@@ -8,5 +8,11 @@
     position:absolute;
     bottom:0;
     width:100%;
+   
+}
+
+.mainFooter{
+    background: #062033;
+    color: white;
 }
 
