@@ -1,0 +1,51 @@
+<Navbar expand="md" className="fixed-top NavbarDark ">
+        <div className="container">
+          <NavbarToggler onClick={toggle} />
+
+          <Collapse isOpen={isOpen} navbar className="positionLinks">
+            <Link to="/contato" className="LogoGhostBit">
+              GhostBit
+            </Link>
+            <Nav className="mr-auto" navbar>
+              <NavItem>
+                <Link to="/contato" className="styleLinks ">
+                  Notícias
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contato" className="styleLinks">
+                  Projetos
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contato" className="styleLinks">
+                  Portifólio
+                </Link>
+              </NavItem>
+              <NavItem>
+                <Link to="/contato" className="styleLinks">
+                  Contato
+                </Link>
+              </NavItem>
+              {/* <UncontrolledDropdown nav inNavbar>
+              <DropdownToggle nav caret>
+                Options
+              </DropdownToggle>
+              <DropdownMenu right>
+                <DropdownItem>
+                  Option 1
+                </DropdownItem>
+                <DropdownItem>
+                  Option 2
+                </DropdownItem>
+                <DropdownItem divider />
+                <DropdownItem>
+                  Reset
+                </DropdownItem>
+              </DropdownMenu>
+            </UncontrolledDropdown> */}
+            </Nav>
+            {/* <NavbarText>Simple Text</NavbarText> */}
+          </Collapse>
+        </div>
+      </Navbar>
