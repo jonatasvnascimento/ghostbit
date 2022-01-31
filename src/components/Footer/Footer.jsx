@@ -13,30 +13,30 @@ export default function Footer() {
                     <small className="d-block mb-3">&copy; 2017–2022</small>
                 </div>
                 <div className="col-6 col-md">
-                    <h5>Redes Sociais</h5>
+                    <h5>Principais Páginas</h5>
                     <ul className="list-unstyled text-small">
-                        <li className="mb-1">  <a href='https://www.instagram.com/diegobf_/' className="link-secondary text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></li>
-                        <li className="mb-1">  <a href='https://api.whatsapp.com/send?phone=5511910732978&text=Gostaria%20de%20Saber%20Mais' className="link-secondary text-decoration-none"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
-                        <li className="mb-1">  <a to="#" className="link-secondary text-decoration-none"><i class="fab fa-twitch"></i> Twitch</a></li>
-                        <li className="mb-1">  <a to="#" className="link-secondary text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></li>
+                        <li className="mb-1"><a to="#"className="link-secondary text-decoration-none" href="#">Home</a></li>
+                        <li className="mb-1"><a to="#"className="link-secondary text-decoration-none" href="#">Serviços</a></li>
+                        <li className="mb-1"><a to="#"className="link-secondary text-decoration-none" href="#">Projetos</a></li>
+                        <li className="mb-1"><a to="#"className="link-secondary text-decoration-none" href="#">Contato</a></li>
                     </ul>
                 </div>
                 <div className="col-6 col-md">
-                    <h5>Principais</h5>
+                    <h5>Nossas Redes Sociais</h5>
                     <ul className="list-unstyled text-small">
-                        <li className="mb-1"><Link to="#"className="link-secondary text-decoration-none" href="#">Home</Link></li>
-                        <li className="mb-1"><Link to="#"className="link-secondary text-decoration-none" href="#">Serviços</Link></li>
-                        <li className="mb-1"><Link to="#"className="link-secondary text-decoration-none" href="#">Projetos</Link></li>
-                        <li className="mb-1"><Link to="#"className="link-secondary text-decoration-none" href="#">Contato</Link></li>
+                        <li className="mb-1"><a href='https://www.instagram.com/diegobf_/' className="link-secondary text-decoration-none"><i class="fab fa-instagram"></i> Instagram</a></li>
+                        <li className="mb-1"><a href='https://api.whatsapp.com/send?phone=5511910732978&text=Gostaria%20de%20Saber%20Mais' className="link-secondary text-decoration-none"><i class="fab fa-whatsapp"></i> Whatsapp</a></li>
+                        <li className="mb-1"><a to="#" className="link-secondary text-decoration-none"><i class="fab fa-twitch"></i> Twitch</a></li>
+                        <li className="mb-1"><a to="#" className="link-secondary text-decoration-none"><i class="fab fa-twitter"></i> Twitter</a></li>
                     </ul>
                 </div>
                 <div className="col-6 col-md">
-                    <h5>informações para Contato</h5>
+                    <h5>Informações para Contato</h5>
                     <ul className="list-unstyled text-small">
-                        <br/>
-                        <li className="mb-1"><i class="fas fa-phone-alt"></i><span> 11 91073-2978</span></li>
+                        <li className="mb-1"><i class="fas fa-phone"></i><span> 11 91073-2978 <em>Atendimento</em></span></li>
+                        <li className="mb-1"><i class="fas fa-phone"></i><span> 11 97102-3211 <em>Suporte</em></span></li>
                         <li className="mb-1"><i class="fas fa-envelope"></i><span> Email: dev.ghostbit@outlook.com</span></li>
-                        <li className="mb-1"><i class="fas fa-envelope"></i> <span>07914080 Jardim Primavera. Francisco Morato SP</span></li>
+                        <li className="mb-1"><i class="fas fa-map-marker-alt"></i> <span> 07914080 Jardim Primavera. Francisco Morato SP</span></li>
                         <br></br>
                     </ul>
                 </div>

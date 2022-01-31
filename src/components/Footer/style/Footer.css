@@ -12,9 +12,12 @@
 }
 
 .mainFooter{
+    
     background: rgb(1,72,114);
     background: linear-gradient(131deg, rgba(1,72,114,1) 0%, rgba(0,48,85,1) 100%, rgba(0,48,85,1) 100%);
     color: white;
+    width: 100%;
+    top: 100px;
     
 }
 
@@ -22,8 +25,24 @@
     color: rgb(180, 220, 243);
 }
 
+.mb-1 a:hover {
+    color: rgb(241, 241, 241);
+}
+
+
+.mb-1 a i{
+    color: rgb(240, 240, 240);
+}
+
 .mb-1 span{
     color: rgb(180, 220, 243);
+}
+
+.mb-1 em{
+    color: rgb(255, 255, 255);
+    font-style: normal;
+    font-weight: bold;
+   
 }
 
 .mb-2 {
@@ -38,3 +57,4 @@ small {
     margin-left: 122px;
    
 }
+
